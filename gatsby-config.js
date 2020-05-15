@@ -14,5 +14,6 @@ module.exports = {
                 pure: true,
             },
         },
+        `gatsby-plugin-typescript`,
     ],
 }

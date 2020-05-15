@@ -16,7 +16,8 @@
     "license": "MIT",
     "scripts": {
         "start": "gatsby develop",
-        "build": "gatsby build"
+        "build": "gatsby build",
+        "test": "jest"
     },
     "dependencies": {
         "babel-plugin-styled-components": "^1.10.7",
@@ -26,5 +27,12 @@
         "react-dom": "^16.13.1",
         "styled-components": "^5.1.0"
     },
-    "devDependencies": {}
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.7.0",
+        "@testing-library/react": "^10.0.4",
+        "babel-jest": "^26.0.1",
+        "babel-preset-gatsby": "^0.4.2",
+        "identity-obj-proxy": "^3.0.0",
+        "jest": "^26.0.1"
+    }
 }
