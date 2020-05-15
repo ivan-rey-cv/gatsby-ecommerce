@@ -7,5 +7,12 @@ module.exports = {
             email: 'ivan.rey.c.v@gmail.com',
         },
     },
-    plugins: [],
+    plugins: [
+        {
+            resolve: `gatsby-plugin-styled-components`,
+            options: {
+                pure: true,
+            },
+        },
+    ],
 }
