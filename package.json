@@ -1,0 +1,27 @@
+{
+    "name": "ecommerce-site",
+    "version": "0.1.0",
+    "private": true,
+    "description": "An Ecommerce site with Contentful for cms and Stripe for payments.",
+    "author": {
+        "name": "Ivan Rey C. V.",
+        "email": "ivan.rey.c.v@gmail.com"
+    },
+    "keywords": [
+        "gatsby",
+        "ecommerce",
+        "contentful",
+        "stripe"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "start": "gatsby develop",
+        "build": "gatsby build"
+    },
+    "dependencies": {
+        "gatsby": "^2.21.31",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "devDependencies": {}
+}
